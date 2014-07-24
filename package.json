@@ -1,0 +1,12 @@
+{
+	"name"    : "ftween",
+	"description" : "javascript tween",
+	"keywords" : ["tween"],
+	"author"  : {
+		"name"  : "fancy",
+		"email" : "fancyboynet@gmail.com",
+		"url"   : "http://fancyboynet/"
+	},
+	"version" : "1.0.0",
+	"main"    : "fTween.js"
+}
