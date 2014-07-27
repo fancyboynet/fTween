@@ -1,7 +1,7 @@
 fTween
 ======
  
-An easy javascript function to handle tween animation.Can be used both in browser and nodejs.
+An easy javascript object to handle tween animation.Can be used both in browser and nodejs.
 
 refer in browser 
 ======
