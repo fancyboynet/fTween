@@ -59,7 +59,7 @@
                 return c / 2 * ((t -= 2) * t * (((s *= (1.525)) + 1) * t + s) + 2) + b;
             },
             'bounceIn': function (t, b, c, d) {
-                return c - this.BounceOut(d - t, 0, c, d) + b;
+                return c - this.bounceOut(d - t, 0, c, d) + b;
             },
             'bounceOut': function (t, b, c, d) {
                 if ((t /= d) < (1 / 2.75)){
@@ -75,9 +75,9 @@
             },
             'bounceInOut': function (t, b, c, d) {
                 if (t < d/2){
-                    return this.BounceIn(t * 2, 0, c, d) * 0.5 + b;
+                    return this.bounceIn(t * 2, 0, c, d) * 0.5 + b;
                 }
-                return this.BounceOut(t * 2 - d, 0, c, d) * 0.5 + c * 0.5 + b;
+                return this.bounceOut(t * 2 - d, 0, c, d) * 0.5 + c * 0.5 + b;
             },
             'circularIn': function (t, b, c, d) {
                 return -c * (Math.sqrt(1 - (t /= d) * t) - 1) + b;

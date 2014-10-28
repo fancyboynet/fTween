@@ -8,6 +8,7 @@ var tween = new fTween.tween.create({
             to : {
                 a : 10
             },
+            easing : fTween.easing.bounceIn,
             onUpdate : function(now){
                 console.log(now.a);
             },
